@@ -3,14 +3,14 @@
 ## About
 
 When using CMake to generate Visual Studio/Xcode targets, source organization can become very convoluted as by default CMake creates two single source groups for all headers and for source files, completely ignoring any organization in the local file structure.
-GroupSourcesByFolder.cmake undos this by automatically re-grouping the source files into to resemble the sources' file structure.
+GroupSourcesByFolder.cmake automatically re-groups the source files into a structure resembling the original file structure.
 The script is based on [this](http://blog.audio-tk.com/2015/09/01/sorting-source-files-and-projects-in-folders-with-cmake-and-visual-studioxcode/) blog post by Matthieu Brucher.
 
-### Before
-<img src="https://user-images.githubusercontent.com/4437447/67684391-fb64c880-f98a-11e9-8ea1-e153a747f288.png" height="400">
+## Example
 
-### After
-<img src="https://user-images.githubusercontent.com/4437447/67684394-fd2e8c00-f98a-11e9-8261-86e410a04e40.png" height="400">
+| Before  | After |
+| ------------- | ------------- |
+| ![](https://user-images.githubusercontent.com/4437447/67684391-fb64c880-f98a-11e9-8ea1-e153a747f288.png)  | ![](https://user-images.githubusercontent.com/4437447/67684394-fd2e8c00-f98a-11e9-8261-86e410a04e40.png)  |
 
 
 ## Usage
