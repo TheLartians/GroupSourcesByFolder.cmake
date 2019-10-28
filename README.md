@@ -18,6 +18,7 @@ The script is based on [this](http://blog.audio-tk.com/2015/09/01/sorting-source
 [Integrate](#how-to-integrate) GroupSourcesByFolder.cmake into your project and call `GroupSourcesByFolder` with your target as an argument.
 
 ```cmake
+add_library(MyLibrary ${sources})
 GroupSourcesByFolder(MyLibrary)
 ```
 
