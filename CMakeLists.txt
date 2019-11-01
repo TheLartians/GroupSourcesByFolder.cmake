@@ -1,8 +1,8 @@
 
 function(GroupSourcesByFolder target)
-  SET(SOURCE_GROUP_DELIMITER "/")
-  SET(last_dir "")
-  SET(files "")
+  set(SOURCE_GROUP_DELIMITER "/")
+  set(last_dir "")
+  set(files "")
 
   get_target_property(sources ${target} SOURCES)
 
