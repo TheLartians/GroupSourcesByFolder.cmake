@@ -58,3 +58,8 @@ In add the following lines to the project's `CMakeLists.txt` after calling `proj
 ```CMake
 add_subdirectory(GroupSourcesByFolder.cmake)
 ```
+
+## See also
+
+- [Format.cmake](https://github.com/TheLartians/Format.cmake) - clang-format targets for CMake
+- [Ccache.cmake](https://github.com/TheLartians/Ccache.cmake) - a Ccache integration for CMake with Xcode support
